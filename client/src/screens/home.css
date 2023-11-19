@@ -1,0 +1,27 @@
+
+.option-item {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .option-item:hover .option-icon {
+    border: 5px solid #1B9BEF;
+    border-radius: 50%;
+    padding: 15px;
+    display: flex;
+    justify-content:center; 
+    align-items: center; 
+  }
+  
+  .checkCircle {
+    display: none;
+    position: absolute;
+    right: 5px;
+    top: 2px;
+
+  }
+  
+  .option-item:hover .checkCircle,
+  .option-item.option-selected .checkCircle {
+    display: flex;
+  }

@@ -1,0 +1,41 @@
+.myborder {
+    width: 50%;
+    border: 2px solid rgb(162, 162, 162);
+    border-radius: 0.8rem;
+    
+}
+/* home.css */
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  border-radius: 0; /* Remove border-radius to match the design */
+  border: 1px solid #cccccc; /* Light grey border */
+}
+
+.form-control::placeholder {
+  font-style: italic;
+}
+
+/* Adjust the link styles as needed */
+a {
+  color: #000000; /* Change the color to black or any other you prefer */
+  text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+/* Add styles for your 'Forget Password?' link */
+.d-flex.justify-content-end {
+  margin-top: -1rem; /* Adjust spacing */
+  margin-bottom: 2rem; /* Adjust spacing */
+}
+
+/* Style for the Sign In button */
+.btn-primary {
+  border-radius: 0; /* Match the button style to the inputs */
+  /* Add other styles as necessary */
+}
